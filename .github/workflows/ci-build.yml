@@ -25,7 +25,6 @@ env:
   OWCURLOPTS:       ${{ vars.OWCURLOPTS }}
 jobs:
   start-start:
-    if: github.repository == 'open-watcom/open-watcom-v2'
     name: Start
     runs-on: ubuntu-latest
     steps:
